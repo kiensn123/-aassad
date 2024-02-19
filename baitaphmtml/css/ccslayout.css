@@ -1,0 +1,214 @@
+.header{
+    width: 100%; 
+    height: 70%;
+    background-image: url(/image/cafe.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.header .container .tren{
+    width: 70%;
+    height: 10%;
+    margin: 0 20%;
+    display:flex ;
+}
+.header .container .tren >div {
+    padding: 20px;
+}
+.header .container .tren .giua .box {
+    list-style: none;
+    display: flex;
+    font-size: 10px;
+    padding-top: 10px; 
+}
+.header .container .tren  .phai {
+    float: right;
+    width:200px ;
+    height: 30px;
+    display: flex;
+    padding-top: 10px;
+    margin: auto 5px ;
+    background-color: rgba(6, 206, 6, 0.623);
+
+}
+.header .container .tren  .phai>div  {
+    text-align: left;
+    color: aliceblue;
+    margin: 0 10px;    
+}
+.header .container .tren  .phai #trai  {
+    margin-right: 0px;   
+}
+.header .container .tren  .phai #phai   {
+    font-size: 10px;
+    margin-top: 10px;  
+}
+.header .container .tren .giua .box .iteam {
+    margin: 0 20px;   
+}
+.header .container .tren .giua .box .iteam:hover {
+    color: rgb(219, 96, 14);
+    text-transform:unset;
+
+    transition: 500ms;
+    translate: 500ms;
+}
+
+.iteam{
+    text-decoration: none;
+    color: aliceblue;
+
+
+}
+.header .container .duoi{
+    width: 40%;
+    height: 400px;
+    margin: 0 100px;
+    
+}
+.header .container .duoi .content{
+    padding: 40px 0;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.header .container .duoi .nutbam{
+    height: 25px;
+    width: 300px;
+    display:flex;
+}
+.header .container .duoi .nutbam>div{
+    margin: 0 15px;
+    padding: 0 15px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 1px;
+}
+.header .container .duoi .nutbam .nutbam1:hover{
+    transition: 500ms;
+
+    background-color: green;
+ 
+}
+.header .container .duoi .nutbam .nutbam2{
+    background-color: rgb(201, 80, 0);
+ 
+}
+
+.header .container .duoi .nutbam .nutbam2:hover{
+    transition: 500ms;
+    background-color: rgba(0, 128, 0, 0);
+}
+
+.article .section1>div{
+    margin: 0 40px;
+    width: calc(100%/5 );
+}
+.article .section1{
+    margin: 10px 100px;
+    display: flex;
+}
+.article .section1 .tren{
+    display: flex;
+}
+.article .section1 .tren #phai{
+    margin-top: 5px;
+    width: 100%;
+ 
+  
+}
+.article .section1 .tren #trai {
+    width: 50px;
+    height: 25px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    
+
+
+}
+
+
+.article .section1 .duoi .iteam{
+    color: #9c2b09;
+}
+.article .section2{
+    margin: 70px 0;
+    margin-left: 15% ;
+    display: flex;
+   
+    
+ 
+}
+.article .section2 .trai{
+  
+    width: 40%;
+ 
+}
+
+
+.article .section2 .trai .giuadau #trai{
+   
+ 
+    margin: 0;
+    margin-right: 10px;
+    
+   
+
+}
+.article .section2 .trai .giuadau #trai>li{
+    
+    margin: 5% 0;
+   
+
+}
+.article .section2 .trai .giuadau #trai{
+    margin-left: 10px;
+    padding: 0;
+   
+
+}
+
+
+.article .section2 .trai .giuadau #phai{
+    padding-top: 20px;
+   background-color: #cf6140a1;
+   float: left;
+   width: 50%;
+   text-align: center;
+   margin-left: 20px;
+   color: #f8f8f8;
+    
+
+}
+.article .section2 .trai .giuadau{
+    display: flex;
+    margin: 30px 0;
+    
+
+}
+
+.article .section2 .trai #tailieu{
+    color: #9c2b09;
+    font-size: 14px;
+
+}
+.article .section2 .trai .cuoidau{
+    display: flex;
+    
+
+    
+
+}
+.article .section2 .phai{
+    width: 40%;
+    background-image: url(/image/chimto.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 60px;
+
+}
+
+
+
+
